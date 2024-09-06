@@ -287,7 +287,7 @@ local function CreateWallArgs()
 		MainSettings = {
 			Orientation = "Middle",
 			VisibleSize = UDim2.new(0.96981132, 0, 0.947604775, 0);
-			HiddenSize  = UDim2.new(0, 0, 1, 0),
+			HiddenSize  = UDim2.new(0, 0, 0.947604775, 0),
 			TweenTime 	= 0.8
 		},
 
@@ -532,3 +532,4 @@ NotificationTable.ClearOverride = function()
 end
 
 return NotificationTable;
+	
