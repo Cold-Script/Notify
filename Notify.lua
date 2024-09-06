@@ -45,7 +45,7 @@ local function CreateNormalNotificationArguments()
 
 		IconSettings = {
 			BackgroundTransparency = 1,
-			BackgroundColor3 = Color3.fromRGB(255, 255, 255),				
+			BackgroundColor3 = Color3.fromRGB(0,0,0),				
 		},
 
 		GradientSettings = {
@@ -59,7 +59,7 @@ local function CreateNormalNotificationArguments()
 		Main = {
 			BorderColor3 = Color3.fromRGB(255, 255, 255),
 			BackgroundColor3 = Color3.fromRGB(30, 30, 30),
-			BackgroundTransparency = 0.050,
+			BackgroundTransparency = 0.5,
 			Rounding = true,
 			BorderSizePixel = 1
 		}
